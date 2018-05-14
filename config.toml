@@ -1,0 +1,4 @@
+baseURL = "https://rapidcore.io"
+languageCode = "en-us"
+title = "RapidCore"
+theme = "github-project-landing-page"

@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  mkdocs:
+    image: rapidcore:hugo
+    build:
+        context: .
+        dockerfile: Dockerfile.hugo
+    volumes:
+      - .:/app/site
+    ports:
+      - 1313:1313
